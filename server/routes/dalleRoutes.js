@@ -41,7 +41,10 @@ router.route('/').post(async (req, res) => {
   try {
     const { prompt } = req.body;
 
-    const base64Image = await fetchImage(prompt);
+console.log('Prompt received:', prompt); // Log the prompt being sent
+const base64Image = await fetchImage(prompt);
+console.log('Base64 image generated:', base64Image); // Log the generated image
+
 
     if (base64Image) {
       res.status(200).json({ photo: base64Image });
