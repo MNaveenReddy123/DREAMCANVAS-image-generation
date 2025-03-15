@@ -9,6 +9,11 @@ DREAMCANVAS is an AI-powered image generation platform that enables users to cre
 - Cloud-based image storage using Cloudinary
 - MongoDB for storing image metadata
 
+## Live Demo
+Check out the live demo:
+- **Frontend:** [DREAMCANVAS Frontend](https://client-nine-umber-68.vercel.app/)
+- **Backend:** [DREAMCANVAS Backend](https://dreamcanvas-61xy.onrender.com)
+
 ## Installation
 
 1. Clone the repository:
@@ -54,17 +59,17 @@ Ensure you have the backend server running:
 DREAMCANVAS uses Cloudinary for storing generated images and MongoDB for storing image metadata. Images are uploaded to Cloudinary, and their URLs, along with related information (name and prompt), are saved in MongoDB.
 
 ## Deployment
+### Deployment Steps
 1. Build the project:
    ```sh
    npm run build
    ```
-2. Deploy to a hosting service like Vercel, Netlify, or Firebase.
+2. Deploy to a hosting service like Vercel, Netlify, or Firebase for the frontend.
+3. Deploy the backend using a service like Render or Heroku.
 
 ## Contributing
 Feel free to contribute to DREAMCANVAS by creating a pull request.
 
 ## License
 This project is licensed under the MIT License.
-
-
 
